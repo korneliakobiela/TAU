@@ -619,6 +619,7 @@
 			pageWidget._setTitle(pageElement);
 			equal(pageElement.dataset.title, "Header", "title was found");
 			equal(ui.title, ui.header.querySelector(".ui-appbar-title"), "title was found");
+			equal(ui.title, ui.header.querySelector(".ui-title"), "title was found");
 
 			pageElement = document.getElementById("data-title");
 			pageWidget = new Page();
