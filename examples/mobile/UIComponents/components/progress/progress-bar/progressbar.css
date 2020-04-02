@@ -1,0 +1,22 @@
+.progress-container {
+	width: 360px;
+	height: inherit;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+
+.ui-progress {
+	margin-left: 56px;
+	margin-right: 56px;
+}
+
+.smaller-text {
+	padding-top: 15px;
+	display: block;
+	width: inherit;
+	font-size: 15px;
+	text-align: center;
+	color: #252525;
+}
